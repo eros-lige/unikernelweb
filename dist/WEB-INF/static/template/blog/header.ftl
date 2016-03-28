@@ -6,10 +6,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="${shishuo_seo_description}">
-<meta name="author" content="师说CMS">
-<link rel="icon" href="${TEMPLATE_BASE_PATH}/images/favicon.ico">
+<meta name="author" content="Unikernel中文站">
 
-<title>${shishuo_seo_title}</title>
+<title>Unikernel 中文站</title>
 
 <!-- Bootstrap core CSS -->
 <link href="${TEMPLATE_BASE_PATH}/css/bootstrap.min.css" rel="stylesheet">
@@ -43,6 +42,6 @@
 	</div>
 	<div class="container">
 		<div class="blog-header">
-			<h1 class="blog-title">${shishuo_seo_title}</h1>
+			<h1 class="blog-title">Unikernel 中文站</h1>
 			<p class="lead blog-description">${shishuo_seo_description}</p>
 		</div>

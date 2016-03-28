@@ -58,11 +58,18 @@ public class PropertyUtils extends PropertyPlaceholderConfigurer {
 	public static String getRoot() {
 		String rootKey = "shishuo.cms.root";
 		String cmsRoot = System.getProperty(rootKey);
+		logger.info(cmsRoot);
 		Enumeration<?> enu = System.getProperties().propertyNames();
 		if(cmsRoot.endsWith(java.io.File.separatorChar+"")){
 			cmsRoot = cmsRoot.substring(0, cmsRoot.length()-1);
 		}
 		logger.info(cmsRoot);
 		return cmsRoot;
+	}
+	
+	public static void main(String [] args){
+		String rootKey = "shishuo.cms.root";
+		String cmsRoot = System.getProperty(rootKey);
+		System.out.println(cmsRoot);
 	}
 }

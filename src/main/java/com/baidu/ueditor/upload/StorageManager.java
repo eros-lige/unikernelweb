@@ -147,6 +147,7 @@ public class StorageManager {
 		if ((!parentPath.exists()) && (!parentPath.mkdirs())) {
 			return new BaseState(false, AppInfo.FAILED_CREATE_FILE);
 		}
+		System.out.println(parentPath);
 
 		if (!parentPath.canWrite()) {
 			return new BaseState(false, AppInfo.PERMISSION_DENIED);
